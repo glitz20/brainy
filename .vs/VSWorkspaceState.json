@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\server",
+    "\\server\\database",
+    "\\server\\database\\models",
+    "\\server\\routes",
+    "\\src",
+    "\\src\\components"
+  ],
+  "SelectedNode": "\\src\\components\\ItemService.js",
+  "PreviewInSolutionExplorer": false
+}
