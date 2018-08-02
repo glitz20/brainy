@@ -66,6 +66,18 @@ itemRouter.route('/delete/:id').get(function (req, res) {
 });
 
 //Define get description route
-itemRouter.route('/items/:id').get
+itemRouter.route('/description/:id').get(function (req, res) {
+    var id = req.params.id;
+    Item.findById(id, function (err, itms) {
+        if (err) {
+            console.log(err);
+        }
+        else {
+            res.json(itms);
+        }
+
+    });
+
+})
 
 module.exports = itemRouter;

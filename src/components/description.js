@@ -9,9 +9,9 @@ class Description extends Component {
     }
 
     componentDidMount() {
-        axios.get('/items/' + this.props.match.params.id)
+        axios.get('/items/description/' + this.props.match.params.id)
             .then(response => {
-                this.setState({ description: response.data });
+                this.setState({ description: response.data});
             })
             .catch(function (error) {
                 console.log(error);
@@ -28,3 +28,5 @@ class Description extends Component {
             )
     }
 }
+
+export default Description;

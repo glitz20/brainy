@@ -86,7 +86,7 @@ class App extends Component {
             />
 
 
-            {/*different divs*/}
+            
             <div>
                 <Link to="/add-item" className="btn btn-primary">Add New</Link>
                 <IndexItem />

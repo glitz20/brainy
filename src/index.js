@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom' //don't need t
 import App from './App';
 import AddItem from './components/AddItem';
 import EditItem from './components/EditItem';
+import Description from './components/description'
 
 
 //style
@@ -19,6 +20,7 @@ ReactDOM.render(
             <Route exact path='/' component={App} />
             <Route path='/add-item' component={AddItem} />
             <Route path='/edit/:id' component={EditItem} />
+            <Route path='/description/:id' component={Description} />
         </div>
 		
 	</Router>,

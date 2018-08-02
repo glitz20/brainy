@@ -1,13 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\server",
     "\\server\\database",
     "\\server\\database\\models",
     "\\server\\routes",
     "\\src",
     "\\src\\components"
   ],
-  "SelectedNode": "\\src\\components\\ItemService.js",
+  "SelectedNode": "\\src\\components\\description.js",
   "PreviewInSolutionExplorer": false
 }
