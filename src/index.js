@@ -17,10 +17,17 @@ import './index.css';
 ReactDOM.render(
     <Router>
         <div>
+            <Switch>
             <Route exact path='/' component={App} />
             <Route path='/add-item' component={AddItem} />
             <Route path='/edit/:id' component={EditItem} />
-            <Route path='/description/:id' component={Description} />
+            <Route path="/signup" component={Signup} />
+                <Route path="/login" component={LoginForm} />
+                <Route path="/home" component={Home} />
+
+            
+                <Route path='/description/:id' component={Description} />
+            </Switch>
         </div>
 		
 	</Router>,
